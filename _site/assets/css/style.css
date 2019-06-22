@@ -1,0 +1,31 @@
+* {
+  font-family: 'Helvetica', 'arial', 'sans-serif'; }
+
+html {
+  font-size: 16px;
+  color: #544c4c; }
+
+a {
+  color: #2f256a;
+  text-decoration: none; }
+
+.pill {
+  background-color: white;
+  padding: .5rem;
+  border-radius: .25rem;
+  display: inline-block; }
+  .pill:hover, .pill.selected {
+    background-color: #c86e6e;
+    border-bottom-color: #a94040;
+    color: white; }
+
+nav {
+  margin-bottom: 3rem; }
+  nav a {
+    margin-right: 1rem; }
+
+.container {
+  padding: 1rem; }
+
+.content {
+  margin-bottom: 3rem; }

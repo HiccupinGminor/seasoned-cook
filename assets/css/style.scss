@@ -1,0 +1,53 @@
+---
+---
+$type-color: #544c4c;
+$link-color: #2f256a;
+$secondary: #d69393;
+
+$standard-padding: 1rem;
+
+* {
+  font-family: 'Helvetica', 'arial', 'sans-serif';
+}
+
+html {
+  font-size: 16px;
+  color: $type-color;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+.pill {
+  background-color: white;
+  padding: .5rem;
+  border-radius: .25rem;
+  display: inline-block;
+  &:hover, &.selected {
+    background-color: darken($secondary, 10%);
+    border-bottom-color: darken($secondary, 25%);
+    color: white;
+  }
+}
+
+.header {
+}
+
+nav {
+  a {
+    margin-right: 1rem;
+  }
+  margin-bottom: 3 * $standard-padding;
+}
+
+.container {
+  padding: $standard-padding;
+}
+.content {
+  margin-bottom: 3 * $standard-padding;
+}
+
+footer {
+}

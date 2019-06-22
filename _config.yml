@@ -1,29 +1,18 @@
 ---
 title: Seasoned Cook
 timezone: America/Los_Angeles
-navigation:
-- text: Home
-  url: /
-- text: About
-  url: /about/
-- text: Workshops
-  url: /workshops/
-- text: Recipes
-  url: /recipes/
-- text: Join
-  url: /join/
 collections:
   posts:
     title: Posts
+    output: true
+  recipes:
+    title: Recipes
     output: true
   uploads:
     title: Uploads
     output: true
   workshops:
     title: Workshops
-    output: true
-  recipes:
-    title: Recipes
     output: true
 defaults:
 - scope:
@@ -37,4 +26,15 @@ defaults:
     type: pages
   values:
     layout: page
+navigation:
+- text: Home
+  url: "/"
+- text: About
+  url: "/about/"
+- text: Workshops
+  url: "/workshops/"
+- text: Recipes
+  url: "/recipes/"
+- text: Join
+  url: "/join/"
 permalink: pretty

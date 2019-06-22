@@ -1,0 +1,29 @@
+---
+title: Seasoned Cook
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  workshops:
+    title: Workshops
+    output: true
+    posted:
+      Key 1: 
+      Key: 
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty

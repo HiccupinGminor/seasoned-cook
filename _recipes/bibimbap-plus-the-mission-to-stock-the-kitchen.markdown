@@ -1,6 +1,8 @@
 ---
 title: BIBIMBAP + THE MISSION TO STOCK THE KITCHEN
 date: 2019-06-22 17:13:00 -07:00
+tags:
+- korean
 ---
 
 Yesterday is what I like to call a happy-tasty-masty-Sunday. It's kind of hard to be grumpy when you wake up to the sun shining through the blinds, soft cool sheets on your legs, and the wonderful sound of cars whooshing by outside. \[Did she say cars?\] Yes, it's LA silly, not Snow White's little cabin in the woods. No matter, it was Sunday, and that means serious food adventure business.

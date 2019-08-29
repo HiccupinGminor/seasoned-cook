@@ -2,28 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title></title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h1>{{ site.title }} <img src="/assets/leaf.svg"/></h1>
+        <h1>Seasoned Cook <img src="/assets/leaf.svg"/></h1>
       </div>
       <nav>
-      {% for link in site.navigation %}
-        {% assign selected = nil %}
-        {% if page.url == link.url or page.layout == link.layout %}
-          {% assign selected = 'selected' %}
-        {% endif %}
-        <a class="pill {{ selected }}" href="{{ link.url }}">{{ link.text }}</a>
-      {% endfor %}
+      
+        
+        
+        <a class="pill " href="/">Home</a>
+      
+        
+        
+        <a class="pill " href="/about/">About</a>
+      
+        
+        
+        <a class="pill " href="/workshops/">Workshops</a>
+      
+        
+        
+        <a class="pill " href="/recipes/">Recipes</a>
+      
+        
+        
+        <a class="pill selected" href="/join/">Join</a>
+      
       </nav>
       <section class="content">
-        <h2>{{ page.title }}</h2>
+        <h2></h2>
         <section>
-        {{ content }}
+        
+
         </section>
       </section>
       <footer>

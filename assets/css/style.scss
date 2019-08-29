@@ -1,13 +1,20 @@
 ---
 ---
-$type-color: #544c4c;
+$color1: #d0c50c;
+$color2: #fad4d1ff;
+$color3: #ffd34a;
+$secondary: #b7e1cd;
+$color5: #00425f;
+$color7: #f9fbf0;
+
+$type-color: #1f2e14;
 $link-color: #2f256a;
-$secondary: #d69393;
+
 
 $standard-padding: 1rem;
 
 * {
-  font-family: 'Helvetica', 'arial', 'sans-serif';
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -20,14 +27,24 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  img {
+    width: 50px;
+  }
+}
+
 .pill {
   background-color: white;
-  padding: .5rem;
-  border-radius: .25rem;
+  padding: .8rem;
+  border-radius: .1rem;
   display: inline-block;
-  &:hover, &.selected {
-    background-color: darken($secondary, 10%);
-    border-bottom-color: darken($secondary, 25%);
+  &.selected {
+    background-color: darken($color1, 10%);
+    border-bottom-color: darken($secondary, 70%);
+    color: white;
+  }
+  &:hover {
+    background-color: $color3;
     color: white;
   }
 }
@@ -35,11 +52,16 @@ a {
 .header {
 }
 
+h1, h2 {
+  font-family: 'Comfortaa', 'Roboto', helvetica, arial, sans-serif;
+}
+
 nav {
   a {
-    margin-right: 1rem;
+    margin-right: 4.8rem;
   }
   margin-bottom: 3 * $standard-padding;
+  text-align: center;
 }
 
 .container {
